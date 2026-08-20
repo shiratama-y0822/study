@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Pikachu",
+        "type": "Electric",
+        "level": 25
+    },
+    {
+        "name": "Bulbasaur",
+        "type": "Grass",
+        "level": 10
+    },
+    {
+        "name": "Squirtle",
+        "type": "Water",
+        "level": 15
+    }
+]
