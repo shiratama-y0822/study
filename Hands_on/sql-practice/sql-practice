@@ -1,0 +1,42 @@
+CREATE TABLE pokemon (
+    id INT,
+    name VARCHAR(100),
+    type VARCHAR(50),
+    level INT
+);
+
+INSERT INTO pokemon (id, name, type, level)
+VALUES (1, 'Pikachu', 'Electric', 25);
+
+INSERT INTO pokemon (id, name, type, level)
+VALUES (2, 'Charmander', 'Fire', 12);
+
+INSERT INTO pokemon (id, name, type, level)
+VALUES (3, 'Swuirtle', 'Water', 18);
+
+SELECT * FROM pokemon:
+SELECT name, level
+FROM pokemon;
+
+SELECT *
+FROM pokemon
+WHERE level >= 20;
+
+SELECT *
+FROM pokemon
+WHERE type ='Water';
+
+SELECT *
+FROM pokemon
+ORDER BY level ASC;
+
+SELECT *
+FROM pokemon
+ORDER BY level DESC;
+
+UPDATE pokemon
+SET level = 30
+WHERE id = 1;
+
+DELETE FROM pokemon
+WHERE id = 2;
